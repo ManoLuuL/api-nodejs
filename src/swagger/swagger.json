@@ -1,0 +1,51 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "API de Usuários",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:4550",
+        "description": "Local server"
+      }
+    ],
+    "paths": {},
+    "components": {
+      "schemas": {
+        "User": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nome": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "senha": {
+              "type": "string"
+            },
+            "idade": {
+              "type": "integer"
+            },
+            "diabetico": {
+              "type": "boolean"
+            },
+            "vegetariano": {
+              "type": "boolean"
+            },
+            "lactose": {
+              "type": "boolean"
+            },
+            "pressao": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+  

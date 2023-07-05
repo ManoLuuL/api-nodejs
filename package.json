@@ -4,23 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ManoLuuL/api-nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ManoLuuL/api-nodejs/issues"
-  },
-  "homepage": "https://github.com/ManoLuuL/api-nodejs#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "config": "^3.2.3",
-    "express": "^4.17.1"
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
   }
 }
